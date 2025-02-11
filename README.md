@@ -3,9 +3,10 @@
 This project implements an Azure Function that automatically triggers when a file is uploaded to Azure Blob Storage and initiates an Orkes Conductor workflow with the blob's content.
 
 ## Pre-requisites
-- Azure Subscription
+- Azure Subscription to create Storage Container and Azure Function
 - Orkes Cloud
 - VSCode(Any Code editor)
+- 
 Note: For Mac,in case you are facing error due to certificates then you can run these commands to install certificates:
 ```
 (security find-certificate -a -p ls /System/Library/Keychains/SystemRootCertificates.keychain && security find-certificate -a -p ls /Library/Keychains/System.keychain) > $HOME/.mac-ca-roots`
