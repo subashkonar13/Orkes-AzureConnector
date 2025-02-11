@@ -1,1 +1,14 @@
+{
+  "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "python",
+        "AZUREBLOB_STORAGE": "",
+        "ORKES_BASE_URL": "",
+        "ORKES_KEY_ID": "",
+        "ORKES_KEY_SECRET": "",
+        "WORKFLOW_NAME": "",
+        "WORKFLOW_VERSION": "1"
+    }
+}
 
