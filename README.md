@@ -75,13 +75,11 @@ conductor-python
 ```
 
 ## Development Setup
-1. Create Orkes Application key id and secret 
-1. Create Python virtual environment:
-```bash
-python -m venv .venv
-source .venv/bin/activate  # On macOS/Linux
-```
-
+1. Create Orkes Application key id and secret
+   https://raw.githubusercontent.com/subashkonar13/Orkes-AzureConnector/refs/heads/main/img/Screenshot%202025-02-11%20at%2009.42.21.png
+2. Provide necessary access for the Keys created
+https://raw.githubusercontent.com/subashkonar13/Orkes-AzureConnector/refs/heads/main/img/Screenshot%202025-02-11%20at%2009.44.51.png
+   
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -102,13 +100,6 @@ func start
 
 2. Upload a file to the configured blob container to trigger the function
 
-## Deployment
-
-### Using VS Code
-1. Install Azure Functions extension
-2. Click on Azure icon
-3. Right-click on your function app
-4. Select "Deploy to Function App..."
 
 ### Using Azure CLI
 ```bash
