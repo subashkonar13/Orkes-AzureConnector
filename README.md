@@ -8,7 +8,7 @@ This project implements an Azure Function that automatically triggers when a fil
 - VSCode(Any Code editor)
 - Azurite extension(in case Storage Account is not available to publish function App)
 - Access to Storage Account for Function App
-Note: For Mac,in case you are facing error due to certificates then you can run these commands to install certificates:
+- **Note:** For Mac,in case you are facing error due to certificates then you can run these commands to install certificates:
 ```
 (security find-certificate -a -p ls /System/Library/Keychains/SystemRootCertificates.keychain && security find-certificate -a -p ls /Library/Keychains/System.keychain) > $HOME/.mac-ca-roots`
 export REQUESTS_CA_BUNDLE="$HOME/.mac-ca-roots"
