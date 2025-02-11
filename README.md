@@ -94,13 +94,15 @@ brew install azure-functions-core-tools@4
 ```
 
 ## Running Locally
+1. Once the Development is done,deploy the Fucntion using Azure extension in VScode
+   <img width="455" alt="image" src="https://github.com/user-attachments/assets/3ca0ecbd-b795-48a0-aa21-852d70ede034" />
 
-1. Start the function:
+2. Start the function:
 ```bash
 func start
 ```
 
-2. Upload a file to the configured blob container to trigger the function
+3. Upload a file to the configured blob container to trigger the function
 
 
 ### Using Azure CLI
