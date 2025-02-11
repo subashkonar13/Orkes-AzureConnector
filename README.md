@@ -56,7 +56,7 @@ conductor-python
 - `ORKES_KEY_SECRET`: Authentication key secret
 - `WORKFLOW_NAME`: Target workflow name
 - `WORKFLOW_VERSION`: Workflow version (default: 1)
-- `sbxpubsubpocstorage_STORAGE`: Azure Storage connection string
+- `AZUREBLOB_STORAGE`: Azure Storage connection string
 
 ### Local Development
 1. Create `local.settings.json`:
