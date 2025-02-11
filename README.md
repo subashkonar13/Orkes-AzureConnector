@@ -76,9 +76,9 @@ conductor-python
 
 ## Development Setup
 1. Create Orkes Application key id and secret
-   https://raw.githubusercontent.com/subashkonar13/Orkes-AzureConnector/refs/heads/main/img/Screenshot%202025-02-11%20at%2009.42.21.png
+   ![alt text](https://raw.githubusercontent.com/subashkonar13/Orkes-AzureConnector/refs/heads/main/img/Screenshot%202025-02-11%20at%2009.42.21.png)
 2. Provide necessary access for the Keys created
-https://raw.githubusercontent.com/subashkonar13/Orkes-AzureConnector/refs/heads/main/img/Screenshot%202025-02-11%20at%2009.44.51.png
+![alt text](https://raw.githubusercontent.com/subashkonar13/Orkes-AzureConnector/refs/heads/main/img/Screenshot%202025-02-11%20at%2009.44.51.png)
    
 2. Install dependencies:
 ```bash
