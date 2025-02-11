@@ -1,7 +1,7 @@
 import azure.functions as func
 import logging
 import os
-from orkes_call import get_workflow_executor, start_workflow
+from link_orkes import get_workflow_executor, start_workflow
 
 app = func.FunctionApp()
 
