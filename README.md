@@ -34,7 +34,7 @@ graph LR
 - Retrieves Orkes configuration from environment variables
 - Initiates Orkes workflow with blob data
 
-### 2. Orkes Integration (`orkes_call.py`)
+### 2. Orkes Integration (`link_orkes.py`)
 - Handles communication with Orkes Conductor platform
 - Key functions:
   - `get_workflow_executor`: Creates authenticated workflow executor
