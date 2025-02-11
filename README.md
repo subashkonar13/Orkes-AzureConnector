@@ -110,4 +110,5 @@ func azure functionapp publish YourFunctionAppName
 
 ## References
 https://orkes.io/content/getting-started/running-workflows-from-code
+
 https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-storage-blob-triggered-function
