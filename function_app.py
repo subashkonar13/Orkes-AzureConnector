@@ -8,8 +8,8 @@ app = func.FunctionApp()
 
 @app.blob_trigger(
     arg_name="myblob",
-    path="orkesblob/{demo}",  # This will match both demo1 and demo2
-    connection="sbxpubsubpocstorage_STORAGE"
+    path="orkesblob/{demo}",  
+    connection="AZUREBLOB_STORAGE"
 )
 def orkes_blob_trigger(myblob: func.InputStream):
     logging.info(f"Python blob trigger function processed blob\n"
@@ -17,7 +17,7 @@ def orkes_blob_trigger(myblob: func.InputStream):
                  f"Blob Size: {myblob.length} bytes")
     
     # Get Orkes configuration from environment variables
-    ORKES_BASE_URL = os.environ["ORKES_BASE_URL"]
+    ORKES_BASE_URL = os.environ["ORKES_BASE_URL"] #Provide the base url of Orkes cloud
     ORKES_KEY_ID = os.environ["ORKES_KEY_ID"]
     ORKES_KEY_SECRET = os.environ["ORKES_KEY_SECRET"]
     WORKFLOW_NAME = os.environ["WORKFLOW_NAME"]
