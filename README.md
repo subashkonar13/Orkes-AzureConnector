@@ -66,7 +66,7 @@ conductor-python
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "python",
-    "sbxpubsubpocstorage_STORAGE": "<your-storage-connection-string>",
+    "AZUREBLOB_STORAGE": "<your-storage-connection-string>",
     "ORKES_BASE_URL": "<orkes-url>",
     "ORKES_KEY_ID": "<key-id>",
     "ORKES_KEY_SECRET": "<key-secret>",
